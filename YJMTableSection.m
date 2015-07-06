@@ -8,6 +8,21 @@
 
 #import "YJMTableSection.h"
 
+@interface YJMTableSection ()
+
+@property (nonatomic) YJMTableRowList *rowList;
+
+@end
+
 @implementation YJMTableSection
+
+- (instancetype)initWithRowList:(YJMTableRowList *)rowlist
+{
+    self = [super init];
+    if (self) {
+        self.rowList = rowlist;
+    }
+    return self;
+}
 
 @end

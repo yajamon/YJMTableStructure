@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "YJMTableRowList.h"
 
 @interface YJMTableSection : NSObject
+
+- (instancetype)initWithRowList:(YJMTableRowList *)rowlist;
 
 @end
