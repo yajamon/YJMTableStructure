@@ -10,4 +10,8 @@
 
 @interface YJMTableRow : NSObject
 
+@property (nonatomic, copy) NSString *identifier;
+
+- (instancetype)initWithIdentifier:(NSString *)identifier;
+
 @end
