@@ -16,6 +16,15 @@
 
 @implementation YJMTableRowList
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.list = [@[] mutableCopy];
+    }
+    return self;
+}
+
 - (void) addRow:(YJMTableRow *) row{
     [self.list addObject:row];
 }
