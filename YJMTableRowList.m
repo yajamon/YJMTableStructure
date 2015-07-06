@@ -10,7 +10,7 @@
 
 @interface YJMTableRowList ()
 
-@property (nonatomic, copy) NSMutableArray *list;
+@property (nonatomic) NSMutableArray *list;
 
 @end
 
