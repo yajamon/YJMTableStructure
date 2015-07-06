@@ -25,4 +25,8 @@
     return self;
 }
 
+- (NSInteger) countOfRow{
+    return [self.rowList countOfRow];
+}
+
 @end

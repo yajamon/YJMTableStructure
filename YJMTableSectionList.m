@@ -20,4 +20,16 @@
     [self.list addObject:section];
 }
 
+- (NSInteger) countOfSection {
+    return self.list.count;
+}
+
+- (NSInteger) countOfRowInSection:(NSInteger)section{
+    YJMTableSection *sectionData = self.list[section];
+    if (!sectionData) {
+        return 0;
+    }
+    return [sectionData countOfRow];
+}
+
 @end

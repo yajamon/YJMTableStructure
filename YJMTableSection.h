@@ -13,4 +13,6 @@
 
 - (instancetype)initWithRowList:(YJMTableRowList *)rowlist;
 
+- (NSInteger) countOfRow;
+
 @end

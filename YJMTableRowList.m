@@ -20,4 +20,8 @@
     [self.list addObject:row];
 }
 
+- (NSInteger) countOfRow{
+    return self.list.count;
+}
+
 @end
