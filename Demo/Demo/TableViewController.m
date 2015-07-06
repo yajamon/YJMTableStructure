@@ -7,8 +7,11 @@
 //
 
 #import "TableViewController.h"
+#import "YJMTableSectionList.h"
 
 @interface TableViewController ()
+
+@property (nonatomic) YJMTableSectionList *sectionList;
 
 @end
 
@@ -22,6 +25,8 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    [self setupSectionList];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,16 +36,33 @@
 
 #pragma mark - Table view data source
 
+- (void)setupSectionList {
+    self.sectionList = [[YJMTableSectionList alloc] init];
+    
+    YJMTableRowList *rowlist1 = [[YJMTableRowList alloc] init];
+    [rowlist1 addRow:[[YJMTableRow alloc] initWithIdentifier:@"CellA"]];
+    [self.sectionList addSection:[[YJMTableSection alloc] initWithRowList:rowlist1]];
+    
+    YJMTableRowList *rowlist2 = [[YJMTableRowList alloc] init];
+    [rowlist1 addRow:[[YJMTableRow alloc] initWithIdentifier:@"CellB"]];
+    [self.sectionList addSection:[[YJMTableSection alloc] initWithRowList:rowlist2]];
+
+    YJMTableRowList *rowlist3 = [[YJMTableRowList alloc] init];
+    [rowlist1 addRow:[[YJMTableRow alloc] initWithIdentifier:@"CellC"]];
+    [self.sectionList addSection:[[YJMTableSection alloc] initWithRowList:rowlist3]];
+
+}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 1;
+    return [self.sectionList countOfSection];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 1;
+    return [self.sectionList countOfRowInSection:section];
 }
 
 
