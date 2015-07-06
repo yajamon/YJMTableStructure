@@ -20,4 +20,8 @@
     [self.list addObject:section];
 }
 
+- (NSInteger) countOfSection {
+    return self.list.count;
+}
+
 @end

@@ -12,5 +12,6 @@
 @interface YJMTableSectionList : NSObject
 
 - (void) addSection:(YJMTableSection *)section;
+- (NSInteger) countOfSection;
 
 @end
