@@ -8,6 +8,16 @@
 
 #import "YJMTableSectionList.h"
 
+@interface YJMTableSectionList ()
+
+@property (nonatomic, copy) NSMutableArray *list;
+
+@end
+
 @implementation YJMTableSectionList
+
+- (void) addSection:(YJMTableSection *)section {
+    [self.list addObject:section];
+}
 
 @end

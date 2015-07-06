@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "YJMTableSection.h"
 
 @interface YJMTableSectionList : NSObject
+
+- (void) addSection:(YJMTableSection *)section;
 
 @end
