@@ -15,6 +15,7 @@
 		C218B5D31B4A6D6900E6F2CD /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C218B5D21B4A6D6900E6F2CD /* DemoTests.m */; };
 		C218B5DE1B4A70F700E6F2CD /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C218B5DD1B4A70F700E6F2CD /* TableViewController.m */; };
 		C218B5E41B4A83AC00E6F2CD /* YJMTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C218B5E31B4A83AC00E6F2CD /* YJMTableRow.m */; };
+		C218B5E71B4A846300E6F2CD /* YJMTableRowList.m in Sources */ = {isa = PBXBuildFile; fileRef = C218B5E61B4A846300E6F2CD /* YJMTableRowList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		C218B5DD1B4A70F700E6F2CD /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		C218B5E21B4A83AC00E6F2CD /* YJMTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJMTableRow.h; path = ../../YJMTableRow.h; sourceTree = "<group>"; };
 		C218B5E31B4A83AC00E6F2CD /* YJMTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJMTableRow.m; path = ../../YJMTableRow.m; sourceTree = "<group>"; };
+		C218B5E51B4A846300E6F2CD /* YJMTableRowList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJMTableRowList.h; path = ../../YJMTableRowList.h; sourceTree = "<group>"; };
+		C218B5E61B4A846300E6F2CD /* YJMTableRowList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJMTableRowList.m; path = ../../YJMTableRowList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				C218B5DC1B4A70F700E6F2CD /* TableViewController.h */,
 				C218B5DD1B4A70F700E6F2CD /* TableViewController.m */,
 				C218B5E21B4A83AC00E6F2CD /* YJMTableRow.h */,
+				C218B5E51B4A846300E6F2CD /* YJMTableRowList.h */,
+				C218B5E61B4A846300E6F2CD /* YJMTableRowList.m */,
 				C218B5E31B4A83AC00E6F2CD /* YJMTableRow.m */,
 			);
 			path = Demo;
@@ -227,6 +232,7 @@
 				C218B5BC1B4A6D6900E6F2CD /* AppDelegate.m in Sources */,
 				C218B5DE1B4A70F700E6F2CD /* TableViewController.m in Sources */,
 				C218B5B91B4A6D6900E6F2CD /* main.m in Sources */,
+				C218B5E71B4A846300E6F2CD /* YJMTableRowList.m in Sources */,
 				C218B5E41B4A83AC00E6F2CD /* YJMTableRow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
