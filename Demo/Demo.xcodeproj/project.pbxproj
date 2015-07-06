@@ -17,6 +17,7 @@
 		C218B5E41B4A83AC00E6F2CD /* YJMTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C218B5E31B4A83AC00E6F2CD /* YJMTableRow.m */; };
 		C218B5E71B4A846300E6F2CD /* YJMTableRowList.m in Sources */ = {isa = PBXBuildFile; fileRef = C218B5E61B4A846300E6F2CD /* YJMTableRowList.m */; };
 		C218B5EA1B4A84D700E6F2CD /* YJMTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = C218B5E91B4A84D700E6F2CD /* YJMTableSection.m */; };
+		C218B5ED1B4A85DA00E6F2CD /* YJMTableSectionList.m in Sources */ = {isa = PBXBuildFile; fileRef = C218B5EC1B4A85DA00E6F2CD /* YJMTableSectionList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		C218B5E61B4A846300E6F2CD /* YJMTableRowList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJMTableRowList.m; path = ../../YJMTableRowList.m; sourceTree = "<group>"; };
 		C218B5E81B4A84D700E6F2CD /* YJMTableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJMTableSection.h; path = ../../YJMTableSection.h; sourceTree = "<group>"; };
 		C218B5E91B4A84D700E6F2CD /* YJMTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJMTableSection.m; path = ../../YJMTableSection.m; sourceTree = "<group>"; };
+		C218B5EB1B4A85DA00E6F2CD /* YJMTableSectionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YJMTableSectionList.h; path = ../../YJMTableSectionList.h; sourceTree = "<group>"; };
+		C218B5EC1B4A85DA00E6F2CD /* YJMTableSectionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YJMTableSectionList.m; path = ../../YJMTableSectionList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				C218B5E91B4A84D700E6F2CD /* YJMTableSection.m */,
 				C218B5E61B4A846300E6F2CD /* YJMTableRowList.m */,
 				C218B5E31B4A83AC00E6F2CD /* YJMTableRow.m */,
+				C218B5EB1B4A85DA00E6F2CD /* YJMTableSectionList.h */,
+				C218B5EC1B4A85DA00E6F2CD /* YJMTableSectionList.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 			files = (
 				C218B5BC1B4A6D6900E6F2CD /* AppDelegate.m in Sources */,
 				C218B5EA1B4A84D700E6F2CD /* YJMTableSection.m in Sources */,
+				C218B5ED1B4A85DA00E6F2CD /* YJMTableSectionList.m in Sources */,
 				C218B5DE1B4A70F700E6F2CD /* TableViewController.m in Sources */,
 				C218B5B91B4A6D6900E6F2CD /* main.m in Sources */,
 				C218B5E71B4A846300E6F2CD /* YJMTableRowList.m in Sources */,
