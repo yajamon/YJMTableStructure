@@ -16,6 +16,15 @@
 
 @implementation YJMTableSectionList
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.list = [@[] mutableCopy];
+    }
+    return self;
+}
+
 - (void) addSection:(YJMTableSection *)section {
     [self.list addObject:section];
 }
