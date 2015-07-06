@@ -12,5 +12,6 @@
 @interface YJMTableRowList : NSObject
 
 - (void) addRow:(YJMTableRow *) row;
+- (NSInteger) countOfRow;
 
 @end
