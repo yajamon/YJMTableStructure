@@ -8,6 +8,16 @@
 
 #import "YJMTableRowList.h"
 
+@interface YJMTableRowList ()
+
+@property (nonatomic, copy) NSMutableArray *list;
+
+@end
+
 @implementation YJMTableRowList
+
+- (void) addRow:(YJMTableRow *) row{
+    [self.list addObject:row];
+}
 
 @end

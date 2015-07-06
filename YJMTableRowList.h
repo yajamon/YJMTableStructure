@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "YJMTableRow.h"
 
 @interface YJMTableRowList : NSObject
+
+- (void) addRow:(YJMTableRow *) row;
 
 @end
