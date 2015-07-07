@@ -14,5 +14,6 @@
 - (void) addSection:(YJMTableSection *)section;
 - (NSInteger) countOfSection;
 - (NSInteger) countOfRowInSection:(NSInteger)section;
+- (YJMTableSection *) sectionAtIndex:(NSInteger)index;
 
 @end
