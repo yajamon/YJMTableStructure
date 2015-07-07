@@ -13,5 +13,6 @@
 
 - (void) addRow:(YJMTableRow *) row;
 - (NSInteger) countOfRow;
+- (YJMTableRow *) rowAtIndex:(NSInteger) index;
 
 @end
