@@ -15,5 +15,6 @@
 - (NSInteger) countOfSection;
 - (NSInteger) countOfRowInSection:(NSInteger)section;
 - (YJMTableSection *) sectionAtIndex:(NSInteger)index;
+- (YJMTableRow *) rowAtIndex:(NSInteger)row inSection:(NSInteger)section;
 
 @end
