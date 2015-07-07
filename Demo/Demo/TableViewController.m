@@ -67,7 +67,14 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CellA" forIndexPath:indexPath];
+    NSString *identifier = @"";
+    YJMTableRow *row = [self.sectionList rowAtIndex:indexPath.row inSection:indexPath.section];
+
+    if (row) {
+        identifier = row.identifier;
+    }
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
     
     // Configure the cell...
     

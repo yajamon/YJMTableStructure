@@ -14,5 +14,6 @@
 - (instancetype)initWithRowList:(YJMTableRowList *)rowlist;
 
 - (NSInteger) countOfRow;
+- (YJMTableRow *) rowAtIndex:(NSInteger)index;
 
 @end

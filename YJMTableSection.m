@@ -29,4 +29,8 @@
     return [self.rowList countOfRow];
 }
 
+- (YJMTableRow *) rowAtIndex:(NSInteger)index{
+    return [self.rowList rowAtIndex:index];
+}
+
 @end

@@ -41,4 +41,24 @@
     return [sectionData countOfRow];
 }
 
+- (YJMTableSection *) sectionAtIndex:(NSInteger)index{
+    YJMTableSection *section = self.list[index];
+    if (!section) {
+        return nil;
+    }
+    return section;
+}
+
+- (YJMTableRow *) rowAtIndex:(NSInteger)row inSection:(NSInteger)section {
+    YJMTableSection *sectionData = [self sectionAtIndex:section];
+    if (!sectionData) {
+        return nil;
+    }
+    YJMTableRow *rowData = [sectionData rowAtIndex:row];
+    if (!rowData) {
+        return nil;
+    }
+    return rowData;
+}
+
 @end

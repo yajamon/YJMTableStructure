@@ -33,4 +33,12 @@
     return self.list.count;
 }
 
+- (YJMTableRow *) rowAtIndex:(NSInteger) index{
+    YJMTableRow *row = self.list[index];
+    if (!row) {
+        return nil;
+    }
+    return row;
+}
+
 @end
